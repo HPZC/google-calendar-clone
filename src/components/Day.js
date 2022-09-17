@@ -21,12 +21,12 @@ export default function Day({ day, rowIdx }) {
 
   function getCurrentDayClass() {
     return day.format("DD-MM-YY") === dayjs().format("DD-MM-YY")
-      ? "bg-blue-600 text-white rounded-full w-7"
+      ? "justify-items-center bg-blue-600 text-white text-xl rounded-full w-9"
       : "";
   }
   return (
-    <div className="border border-gray-200 flex flex-col">
-      <header className="flex flex-col items-center">
+    <div className="font-bold  border hover:bg-white hover:text-black border-gray-200 flex flex-col">
+      <header className=" flex flex-col items-center">
         {rowIdx === 0 && (
           <p className="text-sm mt-1">
             {day.format("ddd").toUpperCase()}

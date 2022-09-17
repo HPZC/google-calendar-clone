@@ -1,7 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" className="-ml-3 mr-3">
-  <path fill="#34A853" d="M16 16v14h4V20z"></path>
-  <path fill="#4285F4" d="M30 16H20l-4 4h14z"></path>
-  <path fill="#FBBC05" d="M6 16v4h10l4-4z"></path>
-  <path fill="#EA4335" d="M20 16V6h-4v14z"></path>
-  <path fill="none" d="M0 0h36v36H0z"></path>
-</svg>
+<svg className="hover:text-black" style="color: blue" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16"> <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" fill="#969173"></path> </svg>
